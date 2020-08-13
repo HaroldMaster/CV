@@ -2,7 +2,6 @@ import { ScullyConfig } from '@scullyio/scully';
 export const config: ScullyConfig = {
   projectRoot: "./src",
   projectName: "HaroldCV",
-  outDir: './docs',
-  routes: {
-  }
+  outDir: './dist/static',
+  routes: {}
 };
